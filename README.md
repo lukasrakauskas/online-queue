@@ -49,6 +49,9 @@ Languages used: PHP, HTML, CSS and JavaScript
 1. Copy .env.example and fill in database information or anything else according to your environment.
 2. Run the following commands:
 
+Database dump:
+![https://github.com/lukasrakauskas/online-queue/blob/master/database-dump.sql](https://github.com/lukasrakauskas/online-queue/blob/master/database-dump.sql)
+
 ```bash
 composer install
 npm install

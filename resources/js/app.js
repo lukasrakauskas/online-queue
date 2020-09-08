@@ -15,8 +15,9 @@ import Login from "./pages/Login";
 
 axios.defaults.withCredentials = true;
 axios.defaults.headers.common["Accept"] = "application/json";
-axios.defaults.baseURL =
-    process.env.NODE_ENV !== "production" ? "http://localhost:8000" : "";
+if (process.env.NODE_ENV !== "production") {
+    axios.defaults.baseURL = "http://localhost:8000";
+}
 
 function App() {
     return (
