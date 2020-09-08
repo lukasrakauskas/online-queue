@@ -3,6 +3,9 @@
 Online Queue is a web app to replace usage of tickets with serial numbers in service departments like: bank, outpatient
 clinic, post office, etc.
 
+Link to a hosted version:
+[https://queue-online.herokuapp.com](https://queue-online.herokuapp.com)
+
 ## Tasks done
 
 Dashboard page:
@@ -50,7 +53,7 @@ Languages used: PHP, HTML, CSS and JavaScript
 2. Run the following commands:
 
 Database dump:
-![https://github.com/lukasrakauskas/online-queue/blob/master/database-dump.sql](https://github.com/lukasrakauskas/online-queue/blob/master/database-dump.sql)
+[https://github.com/lukasrakauskas/online-queue/blob/master/database-dump.sql](https://github.com/lukasrakauskas/online-queue/blob/master/database-dump.sql)
 
 ```bash
 composer install
